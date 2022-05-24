@@ -1,4 +1,8 @@
 # NoteBook
+#### GIT
+```shell
+git push origin HEAD:dytola
+```
 #### C# Random
 ```cs
 private void timer1_Tick(object sender, EventArgs e)
