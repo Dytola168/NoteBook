@@ -13,6 +13,23 @@ wk.average();
 }
         
 ```
+> extends
+```cs
+    package class_1;
+class IPhone extends Phone {
+    public String ios_verson;
+    public IPhone(String IME,String Model,float Price,String Color,String ios_verson){
+    super(IME,Model,Price,Color);
+    this.ios_verson=ios_verson;
+    
+    }
+    public void showData(){
+        super.showData();
+        System.out.println("ios-verson :"+ios_verson);
+    }
+    
+}
+```
 #### GIT
 ##### branch
 ```shell
