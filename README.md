@@ -2,6 +2,7 @@
 #### Java
 ##### main class
 ``` java    
+// in main.java...................
 public class Class_1 {
 
     public static void main(String[] args) {
@@ -15,6 +16,7 @@ wk.average();
 ```
 > extends
 ```java
+    // in Phone.java...................
     package class_1;
 
 public class Phone {
