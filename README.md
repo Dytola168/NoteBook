@@ -1,4 +1,18 @@
 # NoteBook
+#### Java
+##### main class
+```     
+public class Class_1 {
+
+    public static void main(String[] args) {
+        student wk = new student(100,100,100,100,100);
+wk.average();
+
+    }
+     
+}
+        
+```
 #### GIT
 ##### branch
 ```shell
