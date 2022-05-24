@@ -6,8 +6,8 @@
 public class Class_1 {
 
     public static void main(String[] args) {
-        student wk = new student(100,100,100,100,100);
-wk.average();
+        IPhone wk = new IPhone("tes","IPhone11",100,"red","verson 12");
+        wk.showData();
 
     }
      
