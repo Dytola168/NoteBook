@@ -13,7 +13,7 @@ public class Class_1 {
 }
         
 ```
-> extends
+### extends
 ```java
     // in Phone.java...................
     package class_1;
