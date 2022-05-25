@@ -24,3 +24,21 @@
         }
 
 ```
+//new ......................................
+#### Sum total return
+### box
+```cs
+    
+        private void button1_Click(object sender, EventArgs e)
+        {
+            text4.Text = (Convert.ToDouble(text2.Text) * Convert.ToDouble(text3.Text)).ToString();
+            text5.Text = (Convert.ToDouble(text1.Text) - Convert.ToDouble(text2.Text)).ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            text4.Text = (Convert.ToDouble(text2.Text) / Convert.ToDouble(text3.Text)).ToString();
+            text5.Text = (Convert.ToDouble (text1.Text) -Convert.ToDouble( text2.Text)).ToString();
+        }
+
+```
