@@ -170,3 +170,18 @@ describe('re', function () {
 })
 
 ```
+#### C#
+##### Code color BG
+```cs
+
+
+<MudPaper Class="pa-4" Style="@($"color:{Colors.Purple.Accent3};")">
+    Colors.Purple.Accent3
+</MudPaper>
+<MudPaper Class="pa-4" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")">
+    Colors.BlueGrey.Darken4 Colors.LightGreen.Accent3
+</MudPaper>
+
+
+
+```
