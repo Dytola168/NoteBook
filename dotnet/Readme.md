@@ -42,7 +42,7 @@
         }
 
 ```
-##### C#
+##### C# Convert
 ###### folower time
 ```cs
 @using System.Globalization;
@@ -74,4 +74,29 @@
     CultureInfo cn = CultureInfo.GetCultureInfo("cn-ZH");
     DateTime date = DateTime.Now;
 }
+```
+## Convert
+#### ON OFF
+```cs
+@using System.Globalization;
+
+<MudGrid>
+    <MudItem xs="12" sm="6" md="4">
+        <MudSwitch Color="Color.Primary" @bind-Checked="@state">Flip the switch</MudSwitch>
+    </MudItem>
+    
+    <MudItem xs="12" sm="6" md="4">
+        <MudTextField Label="Switch state" Variant="Variant.Outlined" Converter="@converter" @bind-Value="@state" Immediate="true"/>
+    </MudItem>
+
+</MudGrid>
+
+@code {
+    bool state = true;
+
+    Converter<bool> converter = new Converter<bool>
+    {
+        SetFunc = value => value ? "ON" : "OFF",
+        GetFunc = text => (text ?? "").ToLowerInvariant() == "on",
+    };
 ```
