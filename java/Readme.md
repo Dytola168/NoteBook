@@ -68,3 +68,20 @@ private void btSumActionPerformed(java.awt.event.ActionEvent evt) {
 
 
 ```
+#### FORM CLaer
+```js
+    private void btClaerActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        textBox1.setText("");
+        textBox2.setText("");
+        textResult.setText("");
+        textBox1.requestFocus();
+    } 
+
+```
+##### FORM EXIT
+```js
+ private void btClossActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        System.exit(0);
+    }  
+
+```
